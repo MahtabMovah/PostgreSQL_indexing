@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "LLDB: Attach to postgres",
+      "type": "lldb",
+      "request": "attach",
+      "pid": "${command:pickProcess}",
+      "program": "/home/mahtab/postgresql-17.4/bin/postgres",
+      "initCommands": [
+        "settings set target.x86-disassembly-flavor intel"
+      ]
+    }
+  ]
+}

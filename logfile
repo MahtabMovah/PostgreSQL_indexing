@@ -1,0 +1,265 @@
+2025-09-24 03:31:55.479 UTC [21145] LOG:  starting PostgreSQL 17.4 on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+2025-09-24 03:31:55.481 UTC [21145] LOG:  listening on IPv6 address "::1", port 5432
+2025-09-24 03:31:55.481 UTC [21145] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-09-24 03:31:55.485 UTC [21145] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-09-24 03:31:55.497 UTC [21148] LOG:  database system was shut down at 2025-09-24 03:31:55 UTC
+2025-09-24 03:31:55.510 UTC [21145] LOG:  database system is ready to accept connections
+2025-09-24 03:34:27.855 UTC [22087] ERROR:  unrecognized configuration parameter "btree_leaf_prefetch"
+2025-09-24 03:34:27.855 UTC [22087] STATEMENT:  SHOW btree_leaf_prefetch;
+2025-09-24 03:34:27.856 UTC [22087] ERROR:  unrecognized configuration parameter "btree_binsrch_linear"
+2025-09-24 03:34:27.856 UTC [22087] STATEMENT:  SHOW btree_binsrch_linear;
+2025-09-24 03:34:27.857 UTC [22087] ERROR:  unrecognized configuration parameter "btree_binsrch_linear_threshold"
+2025-09-24 03:34:27.857 UTC [22087] STATEMENT:  SHOW btree_binsrch_linear_threshold;
+2025-09-24 03:36:55.606 UTC [21146] LOG:  checkpoint starting: time
+2025-09-24 03:36:55.628 UTC [21146] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.011 s, sync=0.002 s, total=0.024 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=4/744707D0, redo lsn=4/74470778
+2025-09-24 03:41:32.573 UTC [21145] LOG:  received fast shutdown request
+2025-09-24 03:41:32.576 UTC [21145] LOG:  aborting any active transactions
+2025-09-24 03:41:32.578 UTC [21145] LOG:  background worker "logical replication launcher" (PID 21151) exited with exit code 1
+2025-09-24 03:41:32.578 UTC [21146] LOG:  shutting down
+2025-09-24 03:41:32.580 UTC [21146] LOG:  checkpoint starting: shutdown immediate
+2025-09-24 03:41:32.590 UTC [21146] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.001 s, total=0.012 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=4/74470880, redo lsn=4/74470880
+2025-09-24 03:41:32.592 UTC [21145] LOG:  database system is shut down
+2025-09-24 03:41:32.692 UTC [33057] LOG:  starting PostgreSQL 17.4 on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+2025-09-24 03:41:32.693 UTC [33057] LOG:  listening on IPv6 address "::1", port 5432
+2025-09-24 03:41:32.693 UTC [33057] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-09-24 03:41:32.695 UTC [33057] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-09-24 03:41:32.698 UTC [33060] LOG:  database system was shut down at 2025-09-24 03:41:32 UTC
+2025-09-24 03:41:32.701 UTC [33057] LOG:  database system is ready to accept connections
+2025-09-24 03:42:18.905 UTC [33334] ERROR:  unrecognized configuration parameter "btree_leaf_prefetch"
+2025-09-24 03:42:18.905 UTC [33334] STATEMENT:  SHOW btree_leaf_prefetch;
+2025-09-24 03:42:18.906 UTC [33334] ERROR:  unrecognized configuration parameter "btree_binsrch_linear"
+2025-09-24 03:42:18.906 UTC [33334] STATEMENT:  SHOW btree_binsrch_linear;
+2025-09-24 03:42:18.906 UTC [33334] ERROR:  unrecognized configuration parameter "btree_binsrch_linear_threshold"
+2025-09-24 03:42:18.906 UTC [33334] STATEMENT:  SHOW btree_binsrch_linear_threshold;
+2025-09-24 03:46:32.710 UTC [33058] LOG:  checkpoint starting: time
+2025-09-24 03:46:32.729 UTC [33058] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.002 s, total=0.020 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=4/74470988, redo lsn=4/74470930
+2025-09-24 04:01:04.459 UTC [33057] LOG:  received fast shutdown request
+2025-09-24 04:01:04.463 UTC [33057] LOG:  aborting any active transactions
+2025-09-24 04:01:04.465 UTC [33057] LOG:  background worker "logical replication launcher" (PID 33063) exited with exit code 1
+2025-09-24 04:01:04.469 UTC [33058] LOG:  shutting down
+2025-09-24 04:01:04.470 UTC [33058] LOG:  checkpoint starting: shutdown immediate
+2025-09-24 04:01:04.479 UTC [33058] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.011 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=4/74470A38, redo lsn=4/74470A38
+2025-09-24 04:01:04.484 UTC [33057] LOG:  database system is shut down
+2025-09-24 04:01:04.605 UTC [43865] LOG:  starting PostgreSQL 17.4 on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+2025-09-24 04:01:04.606 UTC [43865] LOG:  listening on IPv6 address "::1", port 5432
+2025-09-24 04:01:04.606 UTC [43865] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-09-24 04:01:04.608 UTC [43865] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-09-24 04:01:04.611 UTC [43868] LOG:  database system was shut down at 2025-09-24 04:01:04 UTC
+2025-09-24 04:01:04.615 UTC [43865] LOG:  database system is ready to accept connections
+2025-09-24 04:02:52.784 UTC [44770] ERROR:  unrecognized configuration parameter "btree_leaf_prefetch"
+2025-09-24 04:02:52.784 UTC [44770] STATEMENT:  SHOW btree_leaf_prefetch;
+2025-09-24 04:02:52.785 UTC [44770] ERROR:  unrecognized configuration parameter "btree_binsrch_linear"
+2025-09-24 04:02:52.785 UTC [44770] STATEMENT:  SHOW btree_binsrch_linear;
+2025-09-24 04:02:52.785 UTC [44770] ERROR:  unrecognized configuration parameter "btree_binsrch_linear_threshold"
+2025-09-24 04:02:52.785 UTC [44770] STATEMENT:  SHOW btree_binsrch_linear_threshold;
+2025-09-24 04:06:04.685 UTC [43866] LOG:  checkpoint starting: time
+2025-09-24 04:06:04.705 UTC [43866] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.008 s, sync=0.002 s, total=0.021 s; sync files=2, longest=0.002 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=4/74470B40, redo lsn=4/74470AE8
+2025-09-24 04:30:01.834 UTC [43865] LOG:  received fast shutdown request
+2025-09-24 04:30:01.838 UTC [43865] LOG:  aborting any active transactions
+2025-09-24 04:30:01.840 UTC [43865] LOG:  background worker "logical replication launcher" (PID 43871) exited with exit code 1
+2025-09-24 04:30:01.840 UTC [43866] LOG:  shutting down
+2025-09-24 04:30:01.842 UTC [43866] LOG:  checkpoint starting: shutdown immediate
+2025-09-24 04:30:01.848 UTC [43866] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.001 s, total=0.009 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=4/74470BF0, redo lsn=4/74470BF0
+2025-09-24 04:30:01.851 UTC [43865] LOG:  database system is shut down
+2025-09-24 04:30:01.960 UTC [59531] LOG:  starting PostgreSQL 17.4 on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+2025-09-24 04:30:01.961 UTC [59531] LOG:  listening on IPv6 address "::1", port 5432
+2025-09-24 04:30:01.961 UTC [59531] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-09-24 04:30:01.962 UTC [59531] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-09-24 04:30:01.965 UTC [59534] LOG:  database system was shut down at 2025-09-24 04:30:01 UTC
+2025-09-24 04:30:01.968 UTC [59531] LOG:  database system is ready to accept connections
+2025-09-24 04:30:23.766 UTC [59607] ERROR:  unrecognized configuration parameter "btree_leaf_prefetch"
+2025-09-24 04:30:23.766 UTC [59607] STATEMENT:  SHOW btree_leaf_prefetch;
+2025-09-24 04:30:23.766 UTC [59607] ERROR:  unrecognized configuration parameter "btree_binsrch_linear"
+2025-09-24 04:30:23.766 UTC [59607] STATEMENT:  SHOW btree_binsrch_linear;
+2025-09-24 04:30:23.766 UTC [59607] ERROR:  unrecognized configuration parameter "btree_binsrch_linear_threshold"
+2025-09-24 04:30:23.766 UTC [59607] STATEMENT:  SHOW btree_binsrch_linear_threshold;
+2025-09-24 04:32:43.607 UTC [59531] LOG:  received fast shutdown request
+2025-09-24 04:32:43.609 UTC [59531] LOG:  aborting any active transactions
+2025-09-24 04:32:43.610 UTC [59531] LOG:  background worker "logical replication launcher" (PID 59537) exited with exit code 1
+2025-09-24 04:32:43.610 UTC [59532] LOG:  shutting down
+2025-09-24 04:32:43.611 UTC [59532] LOG:  checkpoint starting: shutdown immediate
+2025-09-24 04:32:43.628 UTC [59532] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.002 s, total=0.019 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=4/74470CA0, redo lsn=4/74470CA0
+2025-09-24 04:32:43.630 UTC [59531] LOG:  database system is shut down
+2025-09-24 04:32:43.726 UTC [62081] LOG:  starting PostgreSQL 17.4 on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+2025-09-24 04:32:43.727 UTC [62081] LOG:  listening on IPv6 address "::1", port 5432
+2025-09-24 04:32:43.727 UTC [62081] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-09-24 04:32:43.728 UTC [62081] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-09-24 04:32:43.730 UTC [62084] LOG:  database system was shut down at 2025-09-24 04:32:43 UTC
+2025-09-24 04:32:43.732 UTC [62081] LOG:  database system is ready to accept connections
+2025-09-24 04:35:48.012 UTC [63578] ERROR:  unrecognized configuration parameter "btree_leaf_prefetch"
+2025-09-24 04:35:48.012 UTC [63578] STATEMENT:  SHOW btree_leaf_prefetch;
+2025-09-24 04:35:48.013 UTC [63578] ERROR:  unrecognized configuration parameter "btree_binsrch_linear"
+2025-09-24 04:35:48.013 UTC [63578] STATEMENT:  SHOW btree_binsrch_linear;
+2025-09-24 04:35:48.013 UTC [63578] ERROR:  unrecognized configuration parameter "btree_binsrch_linear_threshold"
+2025-09-24 04:35:48.013 UTC [63578] STATEMENT:  SHOW btree_binsrch_linear_threshold;
+2025-09-24 04:35:48.013 UTC [63578] ERROR:  unrecognized configuration parameter "btree_leaf_prefetch"
+2025-09-24 04:35:48.013 UTC [63578] STATEMENT:  SET btree_leaf_prefetch = on;
+2025-09-24 04:35:48.013 UTC [63578] ERROR:  unrecognized configuration parameter "btree_binsrch_linear"
+2025-09-24 04:35:48.013 UTC [63578] STATEMENT:  SET btree_binsrch_linear = on;
+2025-09-24 04:35:48.014 UTC [63578] ERROR:  unrecognized configuration parameter "btree_binsrch_linear_threshold"
+2025-09-24 04:35:48.014 UTC [63578] STATEMENT:  SET btree_binsrch_linear_threshold = 4;
+2025-09-24 04:37:43.811 UTC [62082] LOG:  checkpoint starting: time
+2025-09-24 04:37:43.821 UTC [62082] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.001 s, total=0.011 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=4/74470DA8, redo lsn=4/74470D50
+2025-09-24 04:38:47.370 UTC [63578] ERROR:  unrecognized configuration parameter "btree_leaf_prefetch"
+2025-09-24 04:38:47.370 UTC [63578] STATEMENT:  SHOW btree_leaf_prefetch;
+2025-09-24 04:38:47.370 UTC [63578] ERROR:  unrecognized configuration parameter "btree_binsrch_linear"
+2025-09-24 04:38:47.370 UTC [63578] STATEMENT:  SHOW btree_binsrch_linear;
+2025-09-24 04:38:47.370 UTC [63578] ERROR:  unrecognized configuration parameter "btree_binsrch_linear_threshold"
+2025-09-24 04:38:47.370 UTC [63578] STATEMENT:  SHOW btree_binsrch_linear_threshold;
+2025-09-24 04:38:47.370 UTC [63578] ERROR:  unrecognized configuration parameter "btree_leaf_prefetch"
+2025-09-24 04:38:47.370 UTC [63578] STATEMENT:  SET btree_leaf_prefetch = on;
+2025-09-24 04:38:47.370 UTC [63578] ERROR:  unrecognized configuration parameter "btree_binsrch_linear"
+2025-09-24 04:38:47.370 UTC [63578] STATEMENT:  SET btree_binsrch_linear = on;
+2025-09-24 04:38:47.370 UTC [63578] ERROR:  unrecognized configuration parameter "btree_binsrch_linear_threshold"
+2025-09-24 04:38:47.370 UTC [63578] STATEMENT:  SET btree_binsrch_linear_threshold = 4;
+2025-09-24 06:03:30.474 UTC [62086] WARNING:  autovacuum worker took too long to start; canceled
+2025-09-24 06:22:07.281 UTC [8655] LOG:  starting PostgreSQL 17.4 on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+2025-09-24 06:22:07.281 UTC [8655] LOG:  listening on IPv6 address "::1", port 5432
+2025-09-24 06:22:07.281 UTC [8655] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-09-24 06:22:07.290 UTC [8655] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-09-24 06:22:07.297 UTC [8658] LOG:  database system was shut down at 2025-09-24 06:22:07 UTC
+2025-09-24 06:22:07.300 UTC [8655] LOG:  database system is ready to accept connections
+2025-09-24 06:22:44.708 UTC [8796] ERROR:  unrecognized configuration parameter "btree_leaf_prefetch"
+2025-09-24 06:22:44.708 UTC [8796] STATEMENT:  SHOW btree_leaf_prefetch;
+2025-09-24 06:22:44.708 UTC [8796] ERROR:  unrecognized configuration parameter "btree_binsrch_linear"
+2025-09-24 06:22:44.708 UTC [8796] STATEMENT:  SHOW btree_binsrch_linear;
+2025-09-24 06:22:44.708 UTC [8796] ERROR:  unrecognized configuration parameter "btree_binsrch_linear_threshold"
+2025-09-24 06:22:44.708 UTC [8796] STATEMENT:  SHOW btree_binsrch_linear_threshold;
+2025-09-24 06:27:07.399 UTC [8656] LOG:  checkpoint starting: time
+2025-09-24 06:27:07.417 UTC [8656] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.002 s, total=0.019 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=4/74471278, redo lsn=4/74471220
+2025-09-24 06:27:37.941 UTC [8655] LOG:  received fast shutdown request
+2025-09-24 06:27:37.943 UTC [8655] LOG:  aborting any active transactions
+2025-09-24 06:27:37.944 UTC [8655] LOG:  background worker "logical replication launcher" (PID 8661) exited with exit code 1
+2025-09-24 06:27:37.944 UTC [8656] LOG:  shutting down
+2025-09-24 06:27:37.945 UTC [8656] LOG:  checkpoint starting: shutdown immediate
+2025-09-24 06:27:37.951 UTC [8656] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.007 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=4/74471328, redo lsn=4/74471328
+2025-09-24 06:27:37.953 UTC [8655] LOG:  database system is shut down
+2025-09-24 06:27:38.083 UTC [11882] LOG:  starting PostgreSQL 17.4 on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+2025-09-24 06:27:38.083 UTC [11882] LOG:  listening on IPv6 address "::1", port 5432
+2025-09-24 06:27:38.083 UTC [11882] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-09-24 06:27:38.084 UTC [11882] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-09-24 06:27:38.088 UTC [11885] LOG:  database system was shut down at 2025-09-24 06:27:37 UTC
+2025-09-24 06:27:38.091 UTC [11882] LOG:  database system is ready to accept connections
+2025-09-24 06:30:51.331 UTC [11882] LOG:  received fast shutdown request
+2025-09-24 06:30:51.333 UTC [11882] LOG:  aborting any active transactions
+2025-09-24 06:30:51.334 UTC [11882] LOG:  background worker "logical replication launcher" (PID 11888) exited with exit code 1
+2025-09-24 06:30:51.335 UTC [11883] LOG:  shutting down
+2025-09-24 06:30:51.336 UTC [11883] LOG:  checkpoint starting: shutdown immediate
+2025-09-24 06:30:51.350 UTC [11883] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.001 s, total=0.016 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=4/744713D8, redo lsn=4/744713D8
+2025-09-24 06:30:51.352 UTC [11882] LOG:  database system is shut down
+2025-09-24 06:30:51.457 UTC [16012] LOG:  starting PostgreSQL 17.4 on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+2025-09-24 06:30:51.457 UTC [16012] LOG:  listening on IPv6 address "::1", port 5432
+2025-09-24 06:30:51.457 UTC [16012] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-09-24 06:30:51.459 UTC [16012] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-09-24 06:30:51.462 UTC [16015] LOG:  database system was shut down at 2025-09-24 06:30:51 UTC
+2025-09-24 06:30:51.464 UTC [16012] LOG:  database system is ready to accept connections
+2025-09-24 06:31:28.218 UTC [16261] ERROR:  unrecognized configuration parameter "btree_leaf_prefetch"
+2025-09-24 06:31:28.218 UTC [16261] STATEMENT:  SHOW btree_leaf_prefetch;
+2025-09-24 06:31:28.218 UTC [16261] ERROR:  unrecognized configuration parameter "btree_binsrch_linear"
+2025-09-24 06:31:28.218 UTC [16261] STATEMENT:  SHOW btree_binsrch_linear;
+2025-09-24 06:31:28.219 UTC [16261] ERROR:  unrecognized configuration parameter "btree_binsrch_linear_threshold"
+2025-09-24 06:31:28.219 UTC [16261] STATEMENT:  SHOW btree_binsrch_linear_threshold;
+2025-09-24 06:33:50.483 UTC [16012] LOG:  received fast shutdown request
+2025-09-24 06:33:50.487 UTC [16012] LOG:  aborting any active transactions
+2025-09-24 06:33:50.491 UTC [16012] LOG:  background worker "logical replication launcher" (PID 16018) exited with exit code 1
+2025-09-24 06:33:50.491 UTC [16013] LOG:  shutting down
+2025-09-24 06:33:50.494 UTC [16013] LOG:  checkpoint starting: shutdown immediate
+2025-09-24 06:33:50.504 UTC [16013] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.001 s, total=0.013 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=4/74471488, redo lsn=4/74471488
+2025-09-24 06:33:50.508 UTC [16012] LOG:  database system is shut down
+2025-09-24 06:33:50.631 UTC [17718] LOG:  starting PostgreSQL 17.4 on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+2025-09-24 06:33:50.632 UTC [17718] LOG:  listening on IPv6 address "::1", port 5432
+2025-09-24 06:33:50.632 UTC [17718] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-09-24 06:33:50.633 UTC [17718] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-09-24 06:33:50.637 UTC [17721] LOG:  database system was shut down at 2025-09-24 06:33:50 UTC
+2025-09-24 06:33:50.641 UTC [17718] LOG:  database system is ready to accept connections
+2025-09-24 06:34:10.533 UTC [17855] ERROR:  unrecognized configuration parameter "btree_leaf_prefetch"
+2025-09-24 06:34:10.533 UTC [17855] STATEMENT:  SHOW btree_leaf_prefetch;
+2025-09-24 06:34:10.533 UTC [17855] ERROR:  unrecognized configuration parameter "btree_binsrch_linear"
+2025-09-24 06:34:10.533 UTC [17855] STATEMENT:  SHOW btree_binsrch_linear;
+2025-09-24 06:34:10.534 UTC [17855] ERROR:  unrecognized configuration parameter "btree_binsrch_linear_threshold"
+2025-09-24 06:34:10.534 UTC [17855] STATEMENT:  SHOW btree_binsrch_linear_threshold;
+2025-09-24 06:38:50.746 UTC [17719] LOG:  checkpoint starting: time
+2025-09-24 06:38:50.766 UTC [17719] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.008 s, sync=0.002 s, total=0.021 s; sync files=2, longest=0.002 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=4/74471590, redo lsn=4/74471538
+2025-09-24 07:07:32.382 UTC [17718] LOG:  received fast shutdown request
+2025-09-24 07:07:32.386 UTC [17718] LOG:  aborting any active transactions
+2025-09-24 07:07:32.388 UTC [17718] LOG:  background worker "logical replication launcher" (PID 17724) exited with exit code 1
+2025-09-24 07:07:32.390 UTC [17719] LOG:  shutting down
+2025-09-24 07:07:32.394 UTC [17719] LOG:  checkpoint starting: shutdown immediate
+2025-09-24 07:07:32.408 UTC [17719] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.018 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=4/74471640, redo lsn=4/74471640
+2025-09-24 07:07:32.410 UTC [17718] LOG:  database system is shut down
+2025-09-24 07:07:32.506 UTC [36610] LOG:  starting PostgreSQL 17.4 on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+2025-09-24 07:07:32.506 UTC [36610] LOG:  listening on IPv6 address "::1", port 5432
+2025-09-24 07:07:32.506 UTC [36610] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-09-24 07:07:32.508 UTC [36610] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-09-24 07:07:32.510 UTC [36614] LOG:  database system was shut down at 2025-09-24 07:07:32 UTC
+2025-09-24 07:07:32.515 UTC [36610] LOG:  database system is ready to accept connections
+2025-09-24 07:07:46.146 UTC [36619] ERROR:  unrecognized configuration parameter "btree_leaf_prefetch"
+2025-09-24 07:07:46.146 UTC [36619] STATEMENT:  SHOW btree_leaf_prefetch;
+2025-09-24 07:07:46.147 UTC [36619] ERROR:  unrecognized configuration parameter "btree_binsrch_linear"
+2025-09-24 07:07:46.147 UTC [36619] STATEMENT:  SHOW btree_binsrch_linear;
+2025-09-24 07:07:46.148 UTC [36619] ERROR:  unrecognized configuration parameter "btree_binsrch_linear_threshold"
+2025-09-24 07:07:46.148 UTC [36619] STATEMENT:  SHOW btree_binsrch_linear_threshold;
+2025-09-24 07:12:02.789 UTC [39063] ERROR:  unrecognized configuration parameter "btree_leaf_prefetch"
+2025-09-24 07:12:02.789 UTC [39063] STATEMENT:  SET btree_leaf_prefetch = on;
+2025-09-24 07:12:32.611 UTC [36612] LOG:  checkpoint starting: time
+2025-09-24 07:12:32.629 UTC [36612] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.002 s, total=0.019 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=4/74471748, redo lsn=4/744716F0
+2025-09-24 07:16:27.258 UTC [36610] LOG:  received fast shutdown request
+2025-09-24 07:16:27.261 UTC [36610] LOG:  aborting any active transactions
+2025-09-24 07:16:27.263 UTC [36610] LOG:  background worker "logical replication launcher" (PID 36617) exited with exit code 1
+2025-09-24 07:16:27.264 UTC [36612] LOG:  shutting down
+2025-09-24 07:16:27.266 UTC [36612] LOG:  checkpoint starting: shutdown immediate
+2025-09-24 07:16:27.272 UTC [36612] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.001 s, total=0.008 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=4/744717F8, redo lsn=4/744717F8
+2025-09-24 07:16:27.276 UTC [36610] LOG:  database system is shut down
+2025-09-24 07:16:27.399 UTC [42554] LOG:  starting PostgreSQL 17.4 on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+2025-09-24 07:16:27.400 UTC [42554] LOG:  listening on IPv6 address "::1", port 5432
+2025-09-24 07:16:27.400 UTC [42554] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-09-24 07:16:27.401 UTC [42554] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-09-24 07:16:27.404 UTC [42557] LOG:  database system was shut down at 2025-09-24 07:16:27 UTC
+2025-09-24 07:16:27.407 UTC [42554] LOG:  database system is ready to accept connections
+2025-09-24 07:21:27.463 UTC [42555] LOG:  checkpoint starting: time
+2025-09-24 07:21:27.477 UTC [42555] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.002 s, total=0.015 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=4/74471900, redo lsn=4/744718A8
+2025-09-24 07:36:49.738 UTC [42554] LOG:  received fast shutdown request
+2025-09-24 07:36:49.741 UTC [42554] LOG:  aborting any active transactions
+2025-09-24 07:36:49.743 UTC [42554] LOG:  background worker "logical replication launcher" (PID 42560) exited with exit code 1
+2025-09-24 07:36:49.745 UTC [42555] LOG:  shutting down
+2025-09-24 07:36:49.747 UTC [42555] LOG:  checkpoint starting: shutdown immediate
+2025-09-24 07:36:49.756 UTC [42555] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.001 s, total=0.012 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=4/744719B0, redo lsn=4/744719B0
+2025-09-24 07:36:49.759 UTC [42554] LOG:  database system is shut down
+2025-09-24 07:36:49.886 UTC [54337] LOG:  starting PostgreSQL 17.4 on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+2025-09-24 07:36:49.888 UTC [54337] LOG:  listening on IPv6 address "::1", port 5432
+2025-09-24 07:36:49.888 UTC [54337] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-09-24 07:36:49.890 UTC [54337] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-09-24 07:36:49.894 UTC [54347] LOG:  database system was shut down at 2025-09-24 07:36:49 UTC
+2025-09-24 07:36:49.899 UTC [54337] LOG:  database system is ready to accept connections
+2025-09-24 07:41:49.990 UTC [54345] LOG:  checkpoint starting: time
+2025-09-24 07:41:50.010 UTC [54345] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.008 s, sync=0.002 s, total=0.021 s; sync files=2, longest=0.002 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=4/74471AB8, redo lsn=4/74471A60
+2025-09-24 07:49:34.021 UTC [54337] LOG:  received fast shutdown request
+2025-09-24 07:49:34.023 UTC [54337] LOG:  aborting any active transactions
+2025-09-24 07:49:34.028 UTC [54337] LOG:  background worker "logical replication launcher" (PID 54350) exited with exit code 1
+2025-09-24 07:49:34.028 UTC [54345] LOG:  shutting down
+2025-09-24 07:49:34.030 UTC [54345] LOG:  checkpoint starting: shutdown immediate
+2025-09-24 07:49:34.037 UTC [54345] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.001 s, total=0.009 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=4/74471B68, redo lsn=4/74471B68
+2025-09-24 07:49:34.040 UTC [54337] LOG:  database system is shut down
+2025-09-24 07:49:34.162 UTC [62015] LOG:  starting PostgreSQL 17.4 on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+2025-09-24 07:49:34.162 UTC [62015] LOG:  listening on IPv6 address "::1", port 5432
+2025-09-24 07:49:34.162 UTC [62015] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-09-24 07:49:34.164 UTC [62015] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-09-24 07:49:34.166 UTC [62018] LOG:  database system was shut down at 2025-09-24 07:49:34 UTC
+2025-09-24 07:49:34.169 UTC [62015] LOG:  database system is ready to accept connections
+2025-09-24 07:54:34.271 UTC [62016] LOG:  checkpoint starting: time
+2025-09-24 07:54:34.287 UTC [62016] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.002 s, total=0.017 s; sync files=2, longest=0.002 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=4/74471C70, redo lsn=4/74471C18
+2025-09-24 08:09:09.127 UTC [62015] LOG:  received fast shutdown request
+2025-09-24 08:09:09.129 UTC [62015] LOG:  aborting any active transactions
+2025-09-24 08:09:09.131 UTC [62015] LOG:  background worker "logical replication launcher" (PID 62021) exited with exit code 1
+2025-09-24 08:09:09.131 UTC [62016] LOG:  shutting down
+2025-09-24 08:09:09.133 UTC [62016] LOG:  checkpoint starting: shutdown immediate
+2025-09-24 08:09:09.138 UTC [62016] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.001 s, total=0.008 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=4/74471D20, redo lsn=4/74471D20
+2025-09-24 08:09:09.141 UTC [62015] LOG:  database system is shut down
+2025-09-24 08:09:09.252 UTC [73379] LOG:  starting PostgreSQL 17.4 on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0, 64-bit
+2025-09-24 08:09:09.252 UTC [73379] LOG:  listening on IPv6 address "::1", port 5432
+2025-09-24 08:09:09.252 UTC [73379] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-09-24 08:09:09.253 UTC [73379] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-09-24 08:09:09.256 UTC [73382] LOG:  database system was shut down at 2025-09-24 08:09:09 UTC
+2025-09-24 08:09:09.258 UTC [73379] LOG:  database system is ready to accept connections
+2025-09-24 08:14:09.296 UTC [73380] LOG:  checkpoint starting: time
+2025-09-24 08:14:09.320 UTC [73380] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.009 s, sync=0.004 s, total=0.025 s; sync files=3, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=4/74471E28, redo lsn=4/74471DD0
